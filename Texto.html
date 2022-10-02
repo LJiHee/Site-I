@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script src="js/Texto.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="./css/slick.css" />
+
+</head>
+
+<body>
+
+    <header class="menu-principal">
+        <main>
+            <div class="header-1">
+                <div class="logo">
+                    <img src="./img/logo3.png">
+                </div>
+                <div class="redes-sociais">
+                    <ul>
+                        <li>
+                            <a href="Inicio.html">
+                                <img src="./img/icone-home.png" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Texto.html">
+                                <img src=" ./img/icone-texto.png" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Calculadora.html">
+                                <img src="./img/icone-calc.png" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </header>
+    <main class="col-100 menu-urls">
+        <div class="header-2">
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="Inicio.html">Página Inicial</a>
+                    </li>
+                    <li>
+                        <a href="Sobre o Jogo.html">Sobre o Jogo</a>
+                    </li>
+                    <li>
+                        <a href="Ralph.html">Ralph</a>
+                    </li>
+                    <li>
+                        <a href="Vanellope.html">Vanellope</a>
+                    </li>
+                    <li>
+                        <a href="Felix.html">Felix</a>
+                    </li>
+                    <li>
+                        <a href="https://scratch.mit.edu/search/projects?q=detona%20ralph">Jogo</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="busca">
+                <input placeholder="Pesquisar" type="text" />
+            </div>
+        </div>
+    </main>
+    <div class="col-100">
+        <div class="slider-principal">
+            <img src="./img/banner-2.png">
+            <img src="./img/banner.png">
+            <img src="./img/banner-3.png">
+            <img src="./img/banner.png">
+        </div>
+    </div>
+    <div class="col-100">
+        <div class="content texto-destaque">
+            <h1>Junte-se a nós</h1>
+            <p>Ajude Felix consertando o prédio que o Ralph destruiu antes que seja tarde.</p>
+        </div>
+    </div>
+    <div class="col-100 bloco-imagens-texto">
+        <div class="content" style="margin-left: 24%; float: left;"></div>
+        <div class="galeria">
+            <div class="col-3 bloco-texto bloco-imagem">
+                <img src="./img/Vanellope2.jpg" onclick="alerta()" value="Exibir Alerta">
+                <p><b>Vanellope</b></p>
+                <p>
+
+                </p>
+            </div>
+            <div class="col-3 bloco-texto bloco-imagem">
+                <img src="./img/Felix2.jpg" onclick="alerta()" value="Exibir Alerta">
+                <p><b>Felix</b></p>
+                <p>
+
+                </p>
+            </div>
+        </div>
+        <div class="col-3 bloco-texto bloco-imagem">
+            <p><b>Escolha o Seu Avatar</b></p>
+            <p>
+                <center>
+
+                    <h1>Digite o seu nome</h1>
+                    <br>
+                    <div class="text">
+                        Nome:
+                        <input type="text" id="nome">
+                        <br>
+                        Sobrenome:
+                        <input type="text" id="sobrenome">
+                    </div>
+                    <br>
+                    <div class="bot">
+                        <button id="nomear" onclick="nomear()">Nomear</button>
+                        <br>
+                        <button id="renomear" onclick="renomear()">Renomear</button>
+                    </div>
+                    <p class="resultado" id="resultado" style="color:blue;" onMouseOver="muda('resultado')"
+                        onMouseOut="voltar('resultado')">
+                        Resultado...
+                    </p>
+
+                </center>
+            </p>
+        </div>
+
+        <script type="text/javascript" src="./js/jquery.js"></script>
+        <script type="text/javascript" src="./js/jquery-migrate.js"></script>
+        <script type="text/javascript" src="./js/slick.min.js"></script>
+        <script type="text/javascript" src="./js/main.js"></script>
+
+</body>
+
+</html>
